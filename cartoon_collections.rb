@@ -2,11 +2,7 @@ dwarves = ["Dopey", "Grumpy", "Bashful"]
 
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
-  i = 0
-
-  while i < dwarves.size
-    yield(dwarves[i])
-    i += 1
+  dwarves.each_with_index
   end
 end
 
