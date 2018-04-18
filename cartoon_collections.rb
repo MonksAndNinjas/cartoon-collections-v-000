@@ -21,5 +21,5 @@ def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
-dwarves = []
+
 roll_call_dwarves(dwarves) {|dwarf| puts "#{i+1}.*#{dwarf}"}
