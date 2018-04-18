@@ -1,7 +1,7 @@
 
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
-  dwarves_new = dwarves.new
+  dwarves_new = []
   dwarves.each_with_index {|dwarf, index| dwarves_new[index] = dwarf}
 end
 
