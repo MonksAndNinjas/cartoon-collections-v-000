@@ -1,9 +1,7 @@
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
-  i = 0
-  while i < dwarves.size
-    puts "#{i+1}.*#{dwarves}"
-    i += 1
+  dwarves.each_with_index do |dwarf, index|
+    puts "#{index}.*#{dwarf}"
   end
 end
 
