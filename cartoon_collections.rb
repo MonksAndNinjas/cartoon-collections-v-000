@@ -2,6 +2,7 @@ def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
   i = 0
   while i < dwarves.size
+    puts "#{i+1}.*#{dwarves}"
     i += 1
   end
 end
