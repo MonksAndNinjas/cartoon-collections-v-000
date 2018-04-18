@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(veggies)# code an argument here
   # Your code here
-  veggies.collect {|veggie| "#{veggie.upcase}!"}
+  veggies.collect {|veggie| "#{veggie.capitalize}!"}
   return veggies
 end
 
