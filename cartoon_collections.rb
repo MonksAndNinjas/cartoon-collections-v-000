@@ -1,5 +1,5 @@
 dwarves = ["Dopey", "Grumpy", "Bashful"]
-dwarves_new = []
+
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
   i = 0
@@ -23,4 +23,4 @@ def find_the_cheese# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
-roll_call_dwarves(dwarves).each_with_index {|dwarf, index| dwarves_new[index] = item}
+roll_call_dwarves(dwarves) {|dwarf| dwarf.each_with_index}
