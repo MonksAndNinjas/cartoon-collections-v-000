@@ -3,6 +3,7 @@ dwarves = ["Dopey", "Grumpy", "Bashful"]
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
   i = 0
+
   while i < dwarves.size
     yield(dwarves[i])
     i += 1
@@ -22,4 +23,4 @@ def find_the_cheese# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
-roll_call_dwarves(dwarves) {|dwarf| puts "#{i+1}.*#{dwarf}"}
+roll_call_dwarves(dwarves).each_with_index {|dwarf| puts "#{#{dwarf}"}
