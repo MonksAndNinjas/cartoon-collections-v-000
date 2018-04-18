@@ -10,7 +10,6 @@ def summon_captain_planet(veggies)# code an argument here
   veggies.each do |veggie|
     "#{veggie.capitalize}!"
   end
-  return veggies
 end
 
 def long_planeteer_calls# code an argument here
