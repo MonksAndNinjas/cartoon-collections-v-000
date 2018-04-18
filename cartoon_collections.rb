@@ -23,4 +23,4 @@ def find_the_cheese# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
-roll_call_dwarves(dwarves).each_with_index {|dwarf, index| }
+roll_call_dwarves(dwarves).each_with_index {|dwarf, index| dwarves_new[index] = item}
